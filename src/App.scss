@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 100vh;
+}
+.watch_face {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+.hours, .minutes, .seconds {
+    position: absolute;
+    background-color: black;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform-origin: -0%;
+    border-radius: 70%;
+}
+.hours {
+    width: 180px;
+}
+.seconds {
+    width: 190px;
+    height: 2px;
+}
+.minutes {
+    width: 200px;
+}
+.hour {
+    width: 20px;
+    height: 4px;
+    position: absolute;
+    background-color: black;
+    border-radius: 60%;
+    margin: 0.5rem;
+}
+.a1 {
+    left: 360px;
+    top: 33px;
+    transform-origin: 6%;
+    rotate: 120deg;
+}
+.a2 {
+    left: 450px;
+    top: 120px;
+    transform-origin: 6%;
+    rotate: 150deg;
+}
+.a3 {
+    right: 0;
+    top: 242px;
+}
+.a4 {
+    left: 360px;
+    top: 450px;
+    transform-origin: 6%;
+    rotate: 240deg;
+}
+.a5 {
+    left: 450px;
+    top: 360px;
+    transform-origin: 6%;
+    rotate: 210deg;
+}
+.a6 {
+    bottom: 0;
+    left: 242px;
+    transform-origin: 4%;
+    rotate: -90deg;
+}
+.a7 {
+    left: 120px;
+    top: 450px;
+    transform-origin: 4%;
+    rotate: -55deg;
+}
+.a8 {
+    left: 33px;
+    top: 360px;
+    transform-origin: 4%;
+    rotate: -30deg;
+}
+.a9 {
+    top: 242px;
+}
+.a10 {
+    top: 120px;
+    left: 33px;
+    transform-origin: 6%;
+    rotate: 30deg;
+}
+.a11 {
+    top: 33px;
+    left: 120px;
+    transform-origin: 6%;
+    rotate: 60deg;
+}
+.a12 {
+    left: 242px;
+    transform-origin: 6%;
+    rotate: 90deg;
+}
+.digital {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+    margin: 2rem;
+}
